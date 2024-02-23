@@ -2,6 +2,7 @@
 :root{
     --detail: #2C3E50;
     --sec-even: #1ABC9C;
+    --find-us: #3A546D;
 }
 
 header{
@@ -12,6 +13,10 @@ section:nth-child(even){
     background-color: var(--sec-even);
     color: white;
 }
+
+#find-us{
+    background-color: var(--find-us) ;
+}
 /* #endregion SECT-COLORS */
 
 
@@ -19,6 +24,20 @@ section:nth-child(even){
     width: fit-content;
 }
 
-.CardPortfolio > img{
-    width: 100%;
+#contact button{
+    background-color: var(--sec-even);
+    border-color: var(--sec-even);
+    &:hover{
+        background-color: #16846e;
+        border-color: #16846e;
+    }
+}
+
+#find-us button{
+    height: 3rem;
+    width: 3rem;
+}
+
+.ms-fs-bigger{
+    font-size: 1.3rem;
 }
