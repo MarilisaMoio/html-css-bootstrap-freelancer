@@ -17,6 +17,11 @@ section:nth-child(even){
 #find-us{
     background-color: var(--find-us) ;
 }
+
+footer{
+    background-color: var(--detail);
+    color: white;
+}
 /* #endregion SECT-COLORS */
 
 
@@ -40,4 +45,8 @@ section:nth-child(even){
 
 .ms-fs-bigger{
     font-size: 1.3rem;
+}
+
+small{
+    font-size: small;
 }
