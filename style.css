@@ -1,6 +1,17 @@
 /* #region SECT-COLORS */
+:root{
+    --detail: #2C3E50;
+    --sec-even: #1ABC9C;
+
+}
+
 header{
-    background-color: #2C3E50;
+    background-color: var(--detail);
+}
+
+section:nth-child(even){
+    background-color: var(--sec-even);
+    color: white;
 }
 /* #endregion SECT-COLORS */
 
