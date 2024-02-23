@@ -19,3 +19,7 @@ section:nth-child(even){
 .placeholder-btn{
     width: fit-content;
 }
+
+.CardPortfolio > img{
+    width: 100%;
+}
