@@ -50,3 +50,9 @@ footer{
 small{
     font-size: small;
 }
+
+@media screen and (min-width: 776px){
+    html {
+        scroll-padding-top: 4rem;
+    }
+}
