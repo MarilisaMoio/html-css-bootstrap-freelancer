@@ -51,6 +51,19 @@ small{
     font-size: small;
 }
 
+.CardPortfolio-overlay{
+    display: none;
+    background-color: hsla(168, 71%, 30%, 0.5);
+    & i{
+        color: white;
+    }
+    .CardPortfolio:hover &{
+        display: block;
+    }
+}
+
+
+
 @media screen and (min-width: 776px){
     html {
         scroll-padding-top: 4rem;
