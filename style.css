@@ -12,6 +12,13 @@ header{
 section:nth-child(even){
     background-color: var(--sec-even);
     color: white;
+    & .star{
+        background-color: var(--sec-even);
+    }
+}
+
+section:nth-child(odd) .star{
+        background-color: white;
 }
 
 #find-us{
@@ -24,13 +31,32 @@ footer{
 }
 /* #endregion SECT-COLORS */
 
+:is(h1, h2, h3, h4, h5, h6){
+    margin: 0;
+}
+
 header span{
     display: inline-block;
     width: 100%;
 }
 
-.placeholder-btn{
-    width: fit-content;
+.rule{
+    width: 50%;
+    & .star{
+        z-index: 1;
+        display: inline-block;
+    }
+}
+
+.rule::after{
+    content: '';
+    width: 100%;
+    border-radius: 20px;
+    border-bottom: solid 3px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 0;
 }
 
 #contact button{
