@@ -24,6 +24,10 @@ footer{
 }
 /* #endregion SECT-COLORS */
 
+header span{
+    display: inline-block;
+    width: 100%;
+}
 
 .placeholder-btn{
     width: fit-content;
@@ -38,9 +42,8 @@ footer{
     }
 }
 
-#find-us button{
-    height: 3rem;
-    width: 3rem;
+#find-us a{
+    aspect-ratio: 1;
 }
 
 .ms-fs-bigger{
@@ -76,6 +79,9 @@ small{
     height: 150px;
 }
 
+html {
+    scroll-padding-top: 12rem;
+}
 
 @media screen and (min-width: 776px){
     html {
