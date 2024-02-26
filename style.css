@@ -31,6 +31,10 @@ footer{
 }
 /* #endregion SECT-COLORS */
 
+nav span:hover, nav .nav-link.d-md-block:hover{
+    color: var(--sec-even);
+}
+
 :is(h1, h2, h3, h4, h5, h6){
     margin: 0;
 }
@@ -69,7 +73,13 @@ header span{
 }
 
 #find-us a{
-    aspect-ratio: 1;
+    height: 35px;
+    width: 35px;
+    line-height: 30px;
+    vertical-align: center;
+    & i{
+        margin: auto;
+    }
 }
 
 .ms-fs-bigger{
@@ -103,6 +113,11 @@ small{
 
 .form-control.ms-textarea-h{
     height: 150px;
+}
+
+#find-us .ms-link{
+    text-decoration: none;
+    color: var(--sec-even);
 }
 
 html {
