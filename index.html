@@ -143,14 +143,21 @@
                 <div class="col-8 offset-2 col-lg-10 offset-lg-1 text-center">
                     <h2 class="text-uppercase">contact me</h2>
                     <hr>
-                    <div class="form-placeholder text-start border p-2 pb-5">
-                    Name
-                    <hr>
-                    Email
-                    <hr>
-                    Mhone
-                    <hr>
-                    Message
+                    <div class="form-floating">
+                        <input type="text" class="form-control ms-form-border" id="name" placeholder="Put your name here">
+                        <label for="name" class="ps-0">Name</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control ms-form-border" id="email" placeholder="name@example.com">
+                        <label for="email" class="ps-0">Email</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="tel" class="form-control ms-form-border" id="phone" placeholder="Put your phone number here">
+                        <label for="phone" class="ps-0">Phone</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control ms-form-border ms-textarea-h" placeholder="Leave a message here" id="message"></textarea>
+                        <label for="message" class="ps-0">Message</label>
                     </div>
                     <button type="button" class="btn btn-primary mt-3">Send</button>
                 </div>

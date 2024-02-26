@@ -62,6 +62,19 @@ small{
     }
 }
 
+.ms-form-border{
+    border-width: 0 0 2px 0;
+    border-radius: 0;
+}
+
+.ms-form-border:focus{
+    box-shadow: none;
+    border-color:var(--sec-even);
+}
+
+.form-control.ms-textarea-h{
+    height: 150px;
+}
 
 
 @media screen and (min-width: 776px){
